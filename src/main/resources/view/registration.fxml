@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="682.0" prefWidth="545.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.michal.pickMeUp.Controllers.RegistrationController">
+   <children>
+      <TextField editable="false" layoutX="15.0" layoutY="100.0" prefHeight="35.0" prefWidth="240.0" text="name" />
+      <TextField editable="false" layoutX="15.0" layoutY="175.0" prefHeight="35.0" prefWidth="240.0" text="last name" />
+      <TextField editable="false" layoutX="15.0" layoutY="250.0" minHeight="35.0" prefHeight="35.0" prefWidth="240.0" text="password" />
+      <TextField editable="false" layoutX="15.0" layoutY="325.0" minHeight="35.0" prefHeight="35.0" prefWidth="240.0" text="email" />
+      <TextField editable="false" layoutX="15.0" layoutY="400.0" minHeight="35.0" prefHeight="35.0" prefWidth="240.0" text="phone number" />
+      <TextField editable="false" layoutX="15.0" layoutY="475.0" minHeight="35.0" prefHeight="35.0" prefWidth="240.0" text="adres" />
+      <TextField editable="false" layoutX="15.0" layoutY="550.0" prefHeight="35.0" prefWidth="240.0" text="car" />
+      <TextField fx:id="nameField" layoutX="278.0" layoutY="100.0" prefHeight="35.0" prefWidth="240.0" />
+      <TextField fx:id="lastNameField" layoutX="278.0" layoutY="175.0" prefHeight="35.0" prefWidth="240.0" />
+      <PasswordField fx:id="passField" layoutX="278.0" layoutY="250.0" prefHeight="35.0" prefWidth="240.0" />
+      <TextField fx:id="emailField" layoutX="278.0" layoutY="324.0" prefHeight="35.0" prefWidth="240.0" />
+      <TextField fx:id="adresField" layoutX="278.0" layoutY="400.0" prefHeight="35.0" prefWidth="240.0" />
+      <TextField fx:id="phoneField" layoutX="278.0" layoutY="475.0" prefHeight="35.0" prefWidth="240.0" />
+      <TextField fx:id="carField" layoutX="282.0" layoutY="550.0" prefHeight="35.0" prefWidth="240.0" />
+      <Button fx:id="signInButton" layoutX="282.0" layoutY="625.0" mnemonicParsing="false" onAction="#signInButtonHandler" prefHeight="49.0" prefWidth="240.0" text="Sign up" />
+      <Button fx:id="back" layoutX="15.0" layoutY="625.0" mnemonicParsing="false" onAction="#backButtonHandler" prefHeight="49.0" prefWidth="240.0" text="Back" />
+      <Label alignment="CENTER" layoutX="-7.0" layoutY="5.0" prefHeight="89.0" prefWidth="536.0" text="Register">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

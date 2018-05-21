@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="750.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.michal.pickMeUp.Controllers.TabPaneController">
+   <tabs>
+      <Tab fx:id="profileTab" text="Profile">
+         <fx:include fx:id="profileTabPage" source="profileTabPage.fxml"/>
+      </Tab>
+      <Tab fx:id="rideTab" text="Rides">
+         <fx:include fx:id="rideTabPage" source="rideTabPage.fxml"/>
+      </Tab>
+   </tabs>
+</TabPane>

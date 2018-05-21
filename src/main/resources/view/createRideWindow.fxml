@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.michal.pickMeUp.Controllers.CreateRideController">
+   <children>
+      <Button fx:id="createButton" layoutX="570.0" layoutY="50.0" mnemonicParsing="false" onAction="#createButtonActionHandler" prefHeight="77.0" prefWidth="178.0" text="Create" />
+      <Button layoutX="570.0" layoutY="150.0" mnemonicParsing="false" onAction="#cancelButtonActionHandler" prefHeight="77.0" prefWidth="178.0" text="Cancel" />
+      <TextField editable="false" layoutX="30.0" layoutY="50.0" prefHeight="25.0" prefWidth="178.0" text="Starting point" />
+      <TextField fx:id="startingPointTxtField" layoutX="272.0" layoutY="51.0" prefHeight="28.0" prefWidth="247.0" />
+      <TextField editable="false" layoutX="30.0" layoutY="100.0" prefHeight="25.0" prefWidth="178.0" text="End point" />
+      <TextField fx:id="endPointTxtField" layoutX="272.0" layoutY="101.0" prefHeight="28.0" prefWidth="247.0" />
+      <TextField editable="false" layoutX="30.0" layoutY="200.0" prefHeight="25.0" prefWidth="178.0" text="Cost" />
+      <TextField fx:id="freeSpacesTxtField" layoutX="272.0" layoutY="151.0" prefHeight="28.0" prefWidth="247.0" />
+      <TextField editable="false" layoutX="30.0" layoutY="150.0" prefHeight="25.0" prefWidth="178.0" text="Free spaces" />
+      <TextField fx:id="costTxtField" layoutX="272.0" layoutY="201.0" prefHeight="28.0" prefWidth="247.0" />
+      <MenuButton fx:id="yearMenu" layoutX="272.0" layoutY="251.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="65.0" text="Year">
+        <items>
+        </items>
+      </MenuButton>
+      <MenuButton fx:id="monthMenu" layoutX="357.0" layoutY="251.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="79.0" text="Month">
+         <items>
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="dayMenu" layoutX="460.0" layoutY="250.0" mnemonicParsing="false" text="Day">
+         <items>
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="hourMenu" layoutX="272.0" layoutY="301.0" mnemonicParsing="false" text="Hour">
+         <items>
+         </items>
+      </MenuButton>
+      <MenuButton fx:id="minuteMenu" layoutX="357.0" layoutY="301.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="79.0" text="Minute">
+         <items>
+         </items>
+      </MenuButton>
+      <TextField editable="false" layoutX="30.0" layoutY="250.0" prefHeight="25.0" prefWidth="178.0" text="Date" />
+      <TextField editable="false" layoutX="30.0" layoutY="300.0" prefHeight="25.0" prefWidth="178.0" text="Time" />
+   </children>
+</AnchorPane>
