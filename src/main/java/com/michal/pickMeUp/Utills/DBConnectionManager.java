@@ -11,7 +11,7 @@ import java.sql.*;
 public class DBConnectionManager {
     private String url = "jdbc:mysql://localhost:3306/projekt";
     private String username = "root";
-    private String password = "76476912";
+    private String password = "******";
     public Connection connection;
     public void establishConnection() {
         try {
